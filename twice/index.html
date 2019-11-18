@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>fullscreen</title>
+
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="./js/memberProfile.js"></script>
+    <script src="./js/substantiallyImg.js"></script>
+    <script src="./js/loadVideo.js"></script>
+  </head>
+
+  <body class="scrub-transition">
+    <div class="container">
+      <section class="background">
+        <div class="content-wrapper cd-main-content">
+          <div class="content-cnt center">
+            <p class="content-title">
+              <a href="index.html">TWICE</a>
+            </p>
+            <a href="#modal-1" class="content-subtitle cd-btn cd-modal-trigger"
+              >View PROFILE</a
+            >
+          </div>
+
+          <div class="cd-modal" id="modal-1">
+            <div class="modal-content">
+              <h2>PROFILE</h2>
+              <div class="thumbnails">
+                <div>
+                  <a id="nayeon"><img src="../img/nayeon.jfif" alt="나연"/></a>
+                </div>
+                <div>
+                  <a id="jeongyeon"
+                    ><img src="../img/jeongyeon.jfif" alt="정연"
+                  /></a>
+                </div>
+                <div>
+                  <a id="momo"><img src="../img/momo.jfif" alt="모모"/></a>
+                </div>
+                <div>
+                  <a id="sana"><img src="../img/sana.jfif" alt="사나"/></a>
+                </div>
+                <div>
+                  <a id="jihyo"><img src="../img/jihyo.jfif" alt="지효"/></a>
+                </div>
+                <div>
+                  <a id="mina"><img src="../img/mina.jfif" alt="미나"/></a>
+                </div>
+                <div>
+                  <a id="dahyeon"
+                    ><img src="../img/dahyeon.jfif" alt="다현"
+                  /></a>
+                </div>
+                <div>
+                  <a id="chaeyong"
+                    ><img src="../img/chaeyong.jfif" alt="채영"
+                  /></a>
+                </div>
+                <div>
+                  <a id="Tzuyu"><img src="../img/Tzuwy.jfif" alt="쯔위"/></a>
+                </div>
+              </div>
+            </div>
+            <!-- .modal-content -->
+
+            <a href="index.html" class="modal-close">Close</a>
+          </div>
+          <div class="cd-transition-layer" data-frame="25">
+            <div class="bg-layer"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="background">
+        <div class="content-wrapper">
+          <div class="content-cnt">
+            <p class="content-title violet">GALLERY</p>
+            <p class="content-subtitle">Photo</p>
+          </div>
+          <div class="bigPictureWrapper">
+            <div class="bigPicture"></div>
+          </div>
+          <div class="content-album">
+            <div class="photos">
+              <ul class="photo-ul">
+                <li>
+                  <img
+                    src="../img/g_tzuyu.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_나연1.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_정연1.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_모모1.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_사나.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_지효.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_미나1.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_다현1.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_채영.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_단1.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_단2.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_단3.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_나연2.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_정연2.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_모모2.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_사나2.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_지효2.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_미나2.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_다현2.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_채영2.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_쯔위2.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_단4.jpg"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_단7.jfif"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../img/g_단6.jfif"
+                    alt=""
+                    style="width: 124px; height: 124px;"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="background">
+        <div class="content-wrapper">
+          <div class="content-cnt">
+            <p class="content-title orange">VIDEO</p>
+            <p class="content-subtitle">NEW</p>
+          </div>
+          <div class="setMovie">
+            <div class="movie" id="video-frame">
+              <iframe
+                id="showVideo"
+                src="https://www.youtube.com/embed/3ymwOvzhwHs"
+                width="560"
+                height="315"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <div id="video-list">
+              <ul>
+                <li>
+                  <a data-url="https://www.youtube.com/embed/kOHB85vDuow">
+                    <img
+                      src="https://i1.ytimg.com/vi/kOHB85vDuow/mqdefault.jpg"
+                      style="width: 225px; height: 130px;"
+                      alt=""
+                    />
+                  </a>
+                  <p>FANCY M/V...<br />"2019.04.22"</p>
+                </li>
+                <li>
+                  <a data-url="https://www.youtube.com/embed/CfUGjK6gGgs">
+                    <img
+                      src="https://i1.ytimg.com/vi/CfUGjK6gGgs/mqdefault.jpg"
+                      style="width: 225px; height: 130px;"
+                      alt=""
+                    />
+                  </a>
+                  <p>올해 제일 잘한 일...<br />"2018.12.12"</p>
+                </li>
+                <li>
+                  <a data-url="https://www.youtube.com/embed/mAKsZ26SabQ">
+                    <img
+                      src="https://i1.ytimg.com/vi/mAKsZ26SabQ/mqdefault.jpg"
+                      style="width: 225px; height: 130px;"
+                      alt=""
+                    />
+                  </a>
+                  <p>Yes or Yes...<br />"2018.11.05"</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/parallax.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script>
+      if (!window.jQuery)
+        document.write('<script src="js/jquery-2.2.1-min.js"><" + "/script>');
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
