@@ -268,6 +268,7 @@ body {
 }
 #video-list li {
   display: inline-block;
+  cursor: pointer;
 }
 
 .slider {
