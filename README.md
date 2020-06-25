@@ -2,6 +2,7 @@
 TWICE Web is a simple website where girl group TWICE is introduced.
 
 ### Introduce
+(infinite-scroll)
 * Main Page
 * Member Page
 * Photo Page
